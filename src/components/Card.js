@@ -27,7 +27,7 @@ const Card = ({ item }) => {
 
   return (
     <div className="card">
-      <img src={item.img} alt="" />
+      <img src={item.img} />
       <div className="card-info">
         <h1>{item.name}</h1>
         <h3>{item.nickname}</h3>
